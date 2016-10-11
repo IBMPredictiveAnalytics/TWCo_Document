@@ -39,7 +39,11 @@
 
 ###2. Different between TWC API key and TWC cleaned historical API key
 	You will receive two API keys for using The Weather Company's extensions within SPSS.
-	The Gridded Historical extension requires a unique API key. The remaining extensions for pulling TWCo weather data will use a separate unique API key. Both API keys can be acquired through the email address listed above.
+	
+	The Gridded Historical extension requires a single unique API key. 
+	The remaining extensions for pulling TWCo weather data will use a separate unique API key. 
+	
+	Both API keys can be acquired through the email address listed above.
 
 ##Part 3, Trouble shoots
 ###1. What can I do when face "data and datamodel does not match"
