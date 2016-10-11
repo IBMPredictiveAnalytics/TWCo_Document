@@ -19,15 +19,19 @@
 ###3. Where can I found installed extension?
 	You can found installed extension in "Record Ops" tab
 ###4. How to uninstall extension?
-	From "Extensions -> Extension Hub" dialogue, in "Installed" tab, select extension you want uninstall and click "OK".
+	From "Extensions -> Extension Hub" dialogue, in "Installed" tab, 
+	select extension you want uninstall and click "OK".
 ###5. How to manually remove installed extension?
-	Sometimes, old TWC extension can't cleanup with uninstall process. Please remove it manually and restart Modeler.
+	Sometimes, old TWC extension can't cleanup with uninstall process. 
+	Please remove it manually and restart Modeler.
 	Win:
 		C:\ProgramData\IBM\SPSS\Modeler\18.0\CDB
 	Mac:
 		/users/modelerqa/Library/Application Support/IBM/SPSS/Modeler/18/CDB/
 ###6. After extension installed, why example/shared stream node always gray?
-	Please close stream and reopen it. If doesn't work, should be a extension version conflict(stream required extension version VS installed extension version). Please fetch latest extension from #1 link or confirm with stream owner for correct version.
+	Please close stream and reopen it. 
+	If doesn't work, should be a extension version conflict(stream required extension version VS installed extension version). 
+	Please fetch latest extension from #1 link or confirm with stream owner for correct version.
 
 ##Part 2, Configuration
 ###1. Where can I get TWC API key
@@ -36,7 +40,8 @@
 
 ##Part 3, Trouble shoots
 ###1. What can I do when face "data and datamodel does not match"
-	It's very common extension error, because extension didn't have a message throw out pipeline. But extension has printed all necessary error logs to "console output".
+	It's very common extension error, because extension didn't have a message throw out pipeline. 
+	But extension has printed all necessary error logs to "console output".
 	When face this error, please double click extension node, select "Console Output".
 
 ###2. How to analysis output log
