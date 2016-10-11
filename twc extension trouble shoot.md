@@ -4,7 +4,7 @@
 ###1. Modeler version
 	New extension (mpe file) development is based on Modeler 18.0, so TWC extensions need Modeler 18.0 and higher.
 ###2. R
-	Modeler 18.0 support R 3.2.*
+	Modeler 18.0 supports R version 3.2.*
 ###3. Modeler R Essentials
 	Download essentials from 
 	https://developer.ibm.com/predictiveanalytics/downloads/
@@ -14,24 +14,24 @@
 ###1. Where can I find and download the latest extension version?
 	https://github.com/IBMPredictiveAnalytics?utf8=%E2%9C%93&query=twco
 ###2. How to install the latest extensions?
-	Currently, TWC extensions can't support auto install from extension Hub. 
+	Currently, TWC extensions don't support auto install from the extension Hub. 
 	Please download *.mpe and install it from "Extensions -> Install Local Extension Bundle..."
 ###3. Where can I find installed extension?
-	You can found installed extension in "Record Ops" tab
+	You can find installed TWCo extensions in the "Record Ops" tab
 ###4. How do I uninstall an extension?
 	From "Extensions -> Extension Hub" dialogue, in "Installed" tab, 
 	select extension you want uninstall and click "OK".
 ###5. How to do I manually remove an installed extension?
-	Sometimes, old TWC extensions can't cleanup with the uninstall process. 
-	Please remove the extension manually and restart Modeler.
+	Sometimes, old TWC extensions can't be fully removed with the uninstall process. 
+	In this case, please remove the extension manually and restart Modeler.
 	Win:
 		C:\ProgramData\IBM\SPSS\Modeler\18.0\CDB
 	Mac:
 		/users/modelerqa/Library/Application Support/IBM/SPSS/Modeler/18/CDB/
 ###6. After an extension is installed, why are example/shared stream nodes appearing grayed out?
 	Please close stream and reopen it. 
-	If this doesn't work, should be a extension version conflict(stream required extension version VS installed extension version). 
-	Please fetch latest extension from #1 link or confirm with stream owner for correct version.
+	If this doesn't work, should be a extension version conflict (stream required extension version VS installed extension version). 
+	Please fetch the latest extension from #1 link or confirm with stream owner for correct version.
 
 ##Part 2, Configuration
 ###1. Where can I get a 30 day free trial API key for use with TWCo extensions?
