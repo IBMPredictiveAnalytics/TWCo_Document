@@ -2,7 +2,7 @@
 
 ## Part 0, Install R Essentials
 ###1. Modeler version
-	New extension (mpe file) development base on Modeler 18.0, so TWC extension need Modeler 18.0 and high.
+	New extension (mpe file) development is based on Modeler 18.0, so TWC extensions need Modeler 18.0 and higher.
 ###2. R
 	Modeler 18.0 support R 3.2.*
 ###3. Modeler R Essentials
@@ -11,39 +11,46 @@
 	https://github.com/IBMPredictiveAnalytics/R_Essentials_Modeler/releases?cm_mc_uid=17252922416314720076874&cm_mc_sid_50200000=1476166117
 
 ##Part 1, Installation
-###1. Where can I found latest extension?
+###1. Where can I find and download the latest extension version?
 	https://github.com/IBMPredictiveAnalytics?utf8=%E2%9C%93&query=twco
-###2. How to install latest extension?
+###2. How to install the latest extensions?
 	Currently, TWC extensions can't support auto install from extension Hub. 
 	Please download *.mpe and install it from "Extensions -> Install Local Extension Bundle..."
-###3. Where can I found installed extension?
+###3. Where can I find installed extension?
 	You can found installed extension in "Record Ops" tab
-###4. How to uninstall extension?
+###4. How do I uninstall an extension?
 	From "Extensions -> Extension Hub" dialogue, in "Installed" tab, 
 	select extension you want uninstall and click "OK".
-###5. How to manually remove installed extension?
-	Sometimes, old TWC extension can't cleanup with uninstall process. 
-	Please remove it manually and restart Modeler.
+###5. How to do I manually remove an installed extension?
+	Sometimes, old TWC extensions can't cleanup with the uninstall process. 
+	Please remove the extension manually and restart Modeler.
 	Win:
 		C:\ProgramData\IBM\SPSS\Modeler\18.0\CDB
 	Mac:
 		/users/modelerqa/Library/Application Support/IBM/SPSS/Modeler/18/CDB/
-###6. After extension installed, why example/shared stream node always gray?
+###6. After an extension is installed, why are example/shared stream nodes appearing grayed out?
 	Please close stream and reopen it. 
-	If doesn't work, should be a extension version conflict(stream required extension version VS installed extension version). 
+	If this doesn't work, should be a extension version conflict(stream required extension version VS installed extension version). 
 	Please fetch latest extension from #1 link or confirm with stream owner for correct version.
 
 ##Part 2, Configuration
-###1. Where can I get a trial API key for TWCo extensions?
+###1. Where can I get a 30 day free trial API key for use with TWCo extensions?
 	Send an email to ibmwx@us.ibm.com requesting a Demo / Trial API key for The Weather Company extensions in SPSS.
 
-###2. What is the difference between a general TWC API key and a TWC Gridded Historical API key?
+###2. What is the difference between the general TWC API key and the TWC Gridded Historical API key that I received or will receive?
 	You will receive two API keys for using The Weather Company's extensions within SPSS.
 	
-	The Gridded Historical extension requires a single unique API key. 
+	The Weather Company Gridded Historical extension requires a single unique API key. 
 	The remaining extensions for pulling TWCo weather data will use a separate unique API key. 
 	
 	Both API keys can be acquired through the email address listed above.
+
+###3. How does my input file need to be configured to pull weather data correctly?
+	Use .CSV input file format.
+	Column headers must not have spaces included.
+	Latitude and Longitude (if using Lat/Lon for location basis) need to be listed in separate columns.
+	Latitude and Longitude must be expressed in decimal format.
+	Postal Code format varies per TWCo Extension, please reference the specific extension's configuration for an example of the correct postal code format.
 
 ##Part 3, Troubleshooting
 ###1. What can I do when face "data and datamodel does not match"
