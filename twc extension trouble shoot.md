@@ -59,7 +59,7 @@
 	But extension has printed all necessary error logs to "console output".
 	When face this error, please double click extension node, select "Console Output".
 
-###2. How to analysis output log
+###2. How to analyze the console output log
 	There are two logs in the console output log, one is the extension code, and the other part is the execute log. 
 	Those two parts are divide by "*************".
 	Please take a look at the log part.
