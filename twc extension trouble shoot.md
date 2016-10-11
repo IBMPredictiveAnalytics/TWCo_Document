@@ -36,6 +36,7 @@
 ##Part 2, Configuration
 ###1. Where can I get a 30 day free trial API key for use with TWCo extensions?
 	Send an email to ibmwx@us.ibm.com requesting a Demo / Trial API key for The Weather Company extensions in SPSS.
+	Please include your name, role at your organization, and intended industry focus or use case with weather data.
 
 ###2. What is the difference between the general TWC API key and the TWC Gridded Historical API key that I received or will receive?
 	You will receive two API keys for using The Weather Company's extensions within SPSS.
@@ -59,20 +60,21 @@
 	When face this error, please double click extension node, select "Console Output".
 
 ###2. How to analysis output log
-	There is two log in console output log, one is extension code, and another one is execute log. 
-	Those two part are divide by "*************".
-	Please take a look log part.
+	There are two logs in the console output log, one is the extension code, and the other part is the execute log. 
+	Those two parts are divide by "*************".
+	Please take a look at the log part.
 	
 ###3. Error like "Error in FUN(newX[, i], ...) : could not find function "content""
 	R function didn't found, extension required r package install failed.
-	Please try re-install r package manually in r console, TWC extension need "plyr","httr". 
+	Please try re-installing r package manually in r console, TWC extension need "plyr","httr". 
 	
 ###4. Error like "cannot open URL"
 	Copy URL link in console output, and open it in browser to see what happened. 
 	
 ###5. Error like "invalid apikey"
-	You API key can't apply to this special TWC API, please sent this link to Matthew, Chris. To upgrade your api key.
+	You API key can't apply to this special TWC API, please send this error and link to ibmwx@us.ibm.com 
+	to have your API key upgraded to include the appropriate dataset.
 	
-##Part 4, TWC API know issues
-
+##Part 4, TWC API known issues
+	None at this time.
 	
