@@ -20,7 +20,7 @@
 	You can find installed TWCo extensions in the "Record Ops" tab
 ###4. How do I uninstall an extension?
 	From "Extensions -> Extension Hub" dialogue, in "Installed" tab, 
-	select extension you want uninstall and click "OK".
+	select the extension you want uninstall and click "OK".
 ###5. How to do I manually remove an installed extension?
 	Sometimes, old TWC extensions can't be fully removed with the uninstall process. 
 	In this case, please remove the extension manually and restart Modeler.
