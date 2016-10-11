@@ -34,10 +34,10 @@
 	Please fetch latest extension from #1 link or confirm with stream owner for correct version.
 
 ##Part 2, Configuration
-###1. Where can I get TWC API key
+###1. Where can I get a trial API key for TWCo extensions?
 	Send an email to ibmwx@us.ibm.com requesting a Demo / Trial API key for The Weather Company extensions in SPSS.
 
-###2. Different between TWC API key and TWC cleaned historical API key
+###2. What is the difference between a general TWC API key and a TWC Gridded Historical API key?
 	You will receive two API keys for using The Weather Company's extensions within SPSS.
 	
 	The Gridded Historical extension requires a single unique API key. 
@@ -45,7 +45,7 @@
 	
 	Both API keys can be acquired through the email address listed above.
 
-##Part 3, Trouble shoots
+##Part 3, Troubleshooting
 ###1. What can I do when face "data and datamodel does not match"
 	It's very common extension error, because extension didn't have a message throw out pipeline. 
 	But extension has printed all necessary error logs to "console output".
