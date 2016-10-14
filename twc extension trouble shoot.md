@@ -8,6 +8,7 @@
 ###3. Modeler R Essentials
 	Download essentials from 
 	https://developer.ibm.com/predictiveanalytics/downloads/
+	or
 	https://github.com/IBMPredictiveAnalytics/R_Essentials_Modeler/releases?cm_mc_uid=17252922416314720076874&cm_mc_sid_50200000=1476166117
 
 ##Part 1, Installation
@@ -23,7 +24,7 @@
 	select the extension you want uninstall and click "OK".
 ###5. How to do I manually remove an installed extension?
 	Sometimes, old TWC extensions can't be fully removed with the uninstall process. 
-	In this case, please remove the extension manually and restart Modeler.
+	In this case, please remove the extension folder(same as extension name) manually and restart Modeler.
 	Win:
 		C:\ProgramData\IBM\SPSS\Modeler\18.0\CDB
 	Mac:
@@ -50,8 +51,13 @@
 	Use .CSV input file format.
 	Column headers must not have spaces included.
 	Latitude and Longitude (if using Lat/Lon for location basis) need to be listed in separate columns.
-	Latitude and Longitude must be expressed in decimal format.
+	Latitude and Longitude could be expressed in decimal/string format. 
+        Sometimes Modeler add unnecessary space for decimal format(can be check follow Part3 instruction for url link), 
+        try string format for Lat/Lon.
 	Postal Code format varies per TWCo Extension, please reference the specific extension's configuration for an example of the correct postal code format.
+
+###4. Data format
+	TWC extension use YYYYMMDD (20161012) as date format.
 
 ##Part 3, Troubleshooting
 ###1. What can I do when face "data and datamodel does not match"
@@ -74,7 +80,12 @@
 ###5. Error like "invalid apikey"
 	You API key can't apply to this special TWC API, please send this error and link to ibmwx@us.ibm.com 
 	to have your API key upgraded to include the appropriate dataset.
-	
+
+###6. Error like "cannot open URL" for Historical Gridded extension
+	Generally, TWC Gridded Historical API key provider 
+        10,000 calls/month (1 call = 7 days of historical data for 1 location). 
+        Becareful that it's easy to exceed limitation if require long time range.
+
 ##Part 4, TWC API known issues
 	None at this time.
 	
