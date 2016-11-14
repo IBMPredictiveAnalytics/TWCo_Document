@@ -90,7 +90,7 @@
         10,000 calls/month (1 call = 7 days of historical data for 1 location). 
         Becareful that it's easy to exceed limitation if require long time range.
 
-##Part 4, TWC extensino/API known issues
+##Part 4: TWC extensino/API known issues
 ###1. Icon of node didn't show in Modeler
 	It's known Modeler 18 extension, and will be fix in next Modeler release
 ###2. In extension dialouge, "Lon" label(under "Lat" variable selection box) didn't show.
