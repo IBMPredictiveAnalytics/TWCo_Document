@@ -15,7 +15,8 @@
 ###1. Where can I find and download the latest extension version?
 	https://github.com/IBMPredictiveAnalytics?utf8=%E2%9C%93&query=twco
 ###2. How to install the latest extensions?
-	Currently, TWC extensions don't support auto install from the extension Hub. 
+	Download from the Extension Hub within SPSS Modeler.
+	OR
 	Please download *.mpe and install it from "Extensions -> Install Local Extension Bundle..."
 ###3. Where can I find installed extension?
 	You can find installed TWCo extensions in the "Record Ops" tab
