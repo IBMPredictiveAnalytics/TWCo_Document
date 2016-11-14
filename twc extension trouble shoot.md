@@ -1,6 +1,6 @@
 # FAQ
 
-## Part 0, Install R Essentials
+## Part 0, Install R, R Essentials and Modeler v18.0
 ###1. Modeler version
 	New extension (mpe file) development is based on Modeler 18.0, so TWC extensions need Modeler 18.0 and higher.
 ###2. R
