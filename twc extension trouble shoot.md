@@ -4,7 +4,7 @@
 ###1. Modeler version
 	New extension (mpe file) development is based on Modeler 18.0, so TWC extensions need Modeler 18.0 and higher.
 ###2. R
-	Modeler 18.0 supports R version 3.2.*
+	Modeler 18.0 supports R version 3.2.0
 ###3. Modeler R Essentials
 	Download essentials from 
 	https://developer.ibm.com/predictiveanalytics/downloads/
