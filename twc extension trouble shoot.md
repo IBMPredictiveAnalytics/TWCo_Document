@@ -1,6 +1,6 @@
 # FAQ
 
-## Part 0, Install R, R Essentials and Modeler v18.0
+## Part 0: Install R, R Essentials and Modeler v18.0
 ###1. Modeler version
 	New extension (mpe file) development is based on Modeler 18.0, so TWC extensions need Modeler 18.0 and higher.
 ###2. R
@@ -14,7 +14,7 @@
 	or
 	https://github.com/IBMPredictiveAnalytics/R_Essentials_Modeler/releases?cm_mc_uid=17252922416314720076874&cm_mc_sid_50200000=1476166117
 
-##Part 1, Installation
+##Part 1: Installation
 ###1. Where can I find and download the latest extension version?
 	https://github.com/IBMPredictiveAnalytics?utf8=%E2%9C%93&query=twco
 ###2. How to install the latest extensions?
@@ -38,7 +38,7 @@
 	If this doesn't work, should be a extension version conflict (stream required extension version VS installed extension version). 
 	Please fetch the latest extension from #1 link or confirm with stream owner for correct version.
 
-##Part 2, Configuration
+##Part 2: Configuration
 ###1. Where can I get a 30 day free trial API key for use with TWCo extensions?
 	Send an email to ibmwx@us.ibm.com requesting a Demo / Trial API key for The Weather Company extensions in SPSS.
 	Please include your name, role at your organization, and intended industry focus or use case with weather data.
@@ -63,7 +63,7 @@
 ###4. Data format
 	Most TWC extensions use YYYYMMDD (20161012) as the date format. Please ensure your input file is formatted correctly.
 
-##Part 3, Troubleshooting
+##Part 3: Troubleshooting
 ###1. What can I do when face "data and datamodel does not match"
 	It's very common extension error, because extension didn't have a message throw out pipeline. 
 	But extension has printed all necessary error logs to "console output".
