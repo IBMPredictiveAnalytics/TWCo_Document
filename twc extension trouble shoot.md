@@ -58,7 +58,7 @@
 	Postal Code format varies per TWCo Extension, please reference the specific extension's configuration for an example of the correct postal code format.
 
 ###4. Data format
-	TWC extension use YYYYMMDD (20161012) as date format.
+	Most TWC extensions use YYYYMMDD (20161012) as the date format. Please ensure your input file is formatted correctly.
 
 ##Part 3, Troubleshooting
 ###1. What can I do when face "data and datamodel does not match"
